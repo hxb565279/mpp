@@ -9,7 +9,8 @@
             "defines": [],
             "cStandard": "c17",
             "cppStandard": "c++17",
-            "intelliSenseMode": "linux-gcc-arm"
+            "intelliSenseMode": "linux-gcc-arm",
+            "compilerPath": "/bin/cpp"
         }
     ],
     "version": 4
