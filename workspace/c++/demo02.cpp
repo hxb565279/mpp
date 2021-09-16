@@ -5,6 +5,13 @@ using namespace std;
 
 int main()
 {
-   printf("测试");
+
+   printf("请输入心中的数字：");
+  
+  
    return 0;
+
+
+
+
 }
