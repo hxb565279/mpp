@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+    <p id="num"></p>
+    <input type="button" value="停止" onclick="stop()">
+
+    <script>
+        // 创建一个定时器，每隔1秒钟输入一个数字
+        /* js中定时器创建有2中方式：分别是setInterval()和setTimeout()
+         * 该方法有2个参数，第1个参数代表要做的事情（方法），第2个参数代表间隔时间，单位毫秒
+         * */
+        var number = 0
+            // 取出p标签
+        var pObj = document.getElementById('num')
+
+        function print() {
+            number++
+            pObj.innerText = pObj.innerText + number
+        }
+
+        function stop() {
+            // 停止（清空）定时器
+            clearInterval(timer)
+                // clearTimeout()
+        }
+        // 每隔1s钟调用print方法, 无限循环
+        var timer = setInterval(print, 1000)
+            // 只执行一次
+            // setTimeout(print, 1000)
+    </script>
+
+</body>
+
+</html>
