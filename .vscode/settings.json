@@ -1,8 +1,20 @@
+//background 的相关配置
 {
-    "background.useDefault": false,
-    "background.customImages": [
-    
-    "file:/// E://BaiduNetdiskDownload//图片//12.jpg"
-      
-    ]
+"update.enableWindowsBackgroundUpdates":true,
+"background.customImages": [
+    "file:///E:/BaiduNetdiskDownload/图片/12.jpg"//图片地址
+],
+"background.style": {
+    "content":"''",
+    "pointer-events":"none",
+    "position":"absolute",//图片位置
+    "width":"100%",
+    "height":"100%",
+    "z-index":"99999",
+    "background.repeat":"no-repeat",
+    "background-size":"85%,85%",//图片大小
+    "opacity":0.2 //透明度
+},
+"background.useFront": true,
+"background.useDefault": false,//是否使用默认图片
 }
