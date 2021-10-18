@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./jquery-3.4.1.js"></script>
+</head>
+
+<body>
+    <!--
+      
+    -->
+    <p id="title"> AAAAAAAAAAAAA</p>
+    <script>
+        var obj = document.getElementById('title');
+        //原生
+        // obj.style.color = 'red';
+        //jquery
+        //  $('#title').css('color', 'red');
+        //原生转jquery
+        //    $(obj).css('color', 'green');
+        //jquery转原生
+        $('#title')[0].style.color = 'red';
+    </script>
+</body>
+
+</html>
