@@ -17,5 +17,6 @@
     "opacity":0.2//透明度
 },
 "background.useFront": true,
-"background.useDefault": false,//是否使用默认图片
+"background.useDefault": false,
+"cmake.configureOnOpen": true, //是否使用默认图片
 }
